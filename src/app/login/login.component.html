@@ -1,4 +1,4 @@
-<div class="login_form">
+<div class="login_form" style="margin-top: 5%">
   <section class="login-wrapper">
     
     <div class="logo">
@@ -6,17 +6,17 @@
 		 <img src="https://unrealnavigation.com/_themes/unrealnavigation/img/unreal-navigation-logo.png?v=1474018625" alt=""></a>
     </div>
     
-    <form id="login" method="post" action="#">
+    <form id="login" method="GET" action="#" style="padding: 15px;">
      
       <label for="username">User Name</label>
-      <input  required name="login[username]" type="text" autocapitalize="off" autocorrect="off"/>
+      <input required name="login[username]" type="text" autocapitalize="off" autocorrect="off"/>
       
       <label for="password">Password</label>
       <input class="password" required name="login[password]" type="password" />
       <div class="hide-show">
         <span>Show</span>
       </div>
-      <button type="submit">Sign In</button>
+      <button type="button" routerLink="home">Sign In</button>
     </form>
     
   </section>
